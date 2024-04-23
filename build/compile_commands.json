@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/User/Desktop/svm_main-posit1/build/tests",
+  "command": "C:\\PROGRA~1\\MinGW\\ucrt64\\bin\\G__~1.EXE  @CMakeFiles/test_init.dir/includes_CXX.rsp  -Werror -Wall -Wno-long-long -pedantic -g -std=gnu++20 -o CMakeFiles\\test_init.dir\\test_init.cpp.obj -c C:\\Users\\User\\Desktop\\svm_main-posit1\\cppposit-main\\tests\\test_init.cpp",
+  "file": "C:/Users/User/Desktop/svm_main-posit1/cppposit-main/tests/test_init.cpp",
+  "output": "tests/CMakeFiles/test_init.dir/test_init.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Desktop/svm_main-posit1/build/tests",
+  "command": "C:\\PROGRA~1\\MinGW\\ucrt64\\bin\\G__~1.EXE  @CMakeFiles/test_subnormals.dir/includes_CXX.rsp  -Werror -Wall -Wno-long-long -pedantic -g -std=gnu++20 -o CMakeFiles\\test_subnormals.dir\\test_subnormals.cpp.obj -c C:\\Users\\User\\Desktop\\svm_main-posit1\\cppposit-main\\tests\\test_subnormals.cpp",
+  "file": "C:/Users/User/Desktop/svm_main-posit1/cppposit-main/tests/test_subnormals.cpp",
+  "output": "tests/CMakeFiles/test_subnormals.dir/test_subnormals.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/Desktop/svm_main-posit1/build/tests",
+  "command": "C:\\PROGRA~1\\MinGW\\ucrt64\\bin\\G__~1.EXE  @CMakeFiles/test_coverage.dir/includes_CXX.rsp  -Werror -Wall -Wno-long-long -pedantic -g -std=gnu++20 -fprofile-arcs -ftest-coverage -O0 -o CMakeFiles\\test_coverage.dir\\test_coverage.cpp.obj -c C:\\Users\\User\\Desktop\\svm_main-posit1\\cppposit-main\\tests\\test_coverage.cpp",
+  "file": "C:/Users/User/Desktop/svm_main-posit1/cppposit-main/tests/test_coverage.cpp",
+  "output": "tests/CMakeFiles/test_coverage.dir/test_coverage.cpp.obj"
+}
+]

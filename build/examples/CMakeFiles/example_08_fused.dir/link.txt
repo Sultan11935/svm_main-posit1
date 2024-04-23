@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\example_08_fused.dir/objects.a
+C:\PROGRA~1\MinGW\ucrt64\bin\ar.exe qc CMakeFiles\example_08_fused.dir/objects.a @CMakeFiles\example_08_fused.dir\objects1.rsp
+C:\PROGRA~1\MinGW\ucrt64\bin\G__~1.EXE  -Werror -Wall -Wno-long-long -pedantic -g -Wl,--whole-archive CMakeFiles\example_08_fused.dir/objects.a -Wl,--no-whole-archive -o example_08_fused.exe -Wl,--out-implib,libexample_08_fused.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\example_08_fused.dir\linkLibs.rsp

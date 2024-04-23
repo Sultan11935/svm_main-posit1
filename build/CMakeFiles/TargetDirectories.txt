@@ -1,0 +1,13 @@
+C:/Users/User/Desktop/svm_main-posit1/build/CMakeFiles/test.dir
+C:/Users/User/Desktop/svm_main-posit1/build/CMakeFiles/edit_cache.dir
+C:/Users/User/Desktop/svm_main-posit1/build/CMakeFiles/rebuild_cache.dir
+C:/Users/User/Desktop/svm_main-posit1/build/tests/CMakeFiles/tests.dir
+C:/Users/User/Desktop/svm_main-posit1/build/tests/CMakeFiles/test_init.dir
+C:/Users/User/Desktop/svm_main-posit1/build/tests/CMakeFiles/test_subnormals.dir
+C:/Users/User/Desktop/svm_main-posit1/build/tests/CMakeFiles/test_coverage.dir
+C:/Users/User/Desktop/svm_main-posit1/build/tests/CMakeFiles/test.dir
+C:/Users/User/Desktop/svm_main-posit1/build/tests/CMakeFiles/edit_cache.dir
+C:/Users/User/Desktop/svm_main-posit1/build/tests/CMakeFiles/rebuild_cache.dir
+C:/Users/User/Desktop/svm_main-posit1/build/_deps/catch2-build/CMakeFiles/test.dir
+C:/Users/User/Desktop/svm_main-posit1/build/_deps/catch2-build/CMakeFiles/edit_cache.dir
+C:/Users/User/Desktop/svm_main-posit1/build/_deps/catch2-build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\test_init.dir/objects.a
+C:\PROGRA~1\MinGW\ucrt64\bin\ar.exe qc CMakeFiles\test_init.dir/objects.a @CMakeFiles\test_init.dir\objects1.rsp
+C:\PROGRA~1\MinGW\ucrt64\bin\G__~1.EXE  -Werror -Wall -Wno-long-long -pedantic -g -Wl,--whole-archive CMakeFiles\test_init.dir/objects.a -Wl,--no-whole-archive -o test_init.exe -Wl,--out-implib,libtest_init.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_init.dir\linkLibs.rsp
