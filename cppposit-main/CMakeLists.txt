@@ -21,10 +21,10 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Eigen3 integration
-#set(Eigen3_DIR "C:/Users/User/Desktop/svm_main-posit1/cppposit-main/eigen/include/eigen/cmake")
+set(Eigen3_DIR "C:/Users/User/Desktop/svm_main-posit1/svm_main-posit1/cppposit-main/eigen/include/eigen/cmake")
 #find_package(Eigen3)
 # Set the path to the Eigen headers
-#set(EIGEN_INCLUDE_DIR "C:/Users/User/Desktop/svm_main-posit1/cppposit-main/inlcude/eigen/Eigen")
+set(EIGEN_INCLUDE_DIR "C:/Users/User/Desktop/svm_main-posit1/svm_main-posit1/cppposit-main/inlcude/eigen/Eigen")
 
 # Add the Eigen include directory to the include paths
 #include_directories(${EIGEN_INCLUDE_DIR})
