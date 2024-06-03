@@ -5,9 +5,11 @@
 #include <cmath>
 #include "posit.h" // include non-tabulated posits
 #include <unistd.h>
+#include <cstdint>
 
-//using real = posit::Posit<int8_t, 8, 0, uint32_t, posit::PositSpec::WithInfs>;
-using real = posit::Posit<int16_t, 16, 2, uint32_t, posit::PositSpec::WithInfs>;
+using real = posit::Posit<int8_t, 8, 0, uint32_t, posit::PositSpec::WithInfs>;
+//using real = posit::Posit<int16_t, 16, 2, uint32_t, posit::PositSpec::WithInfs>;
+//using real = posit::Posit<int32_t, 32, 4, uint64_t, posit::PositSpec::WithInfs>;
 
 // real numbers error tolerance
 const double epsilon = 1e-5;
@@ -113,7 +115,7 @@ void read_dataset(std::string filename, std::vector<std::vector<T>> &ret) {
 template <typename T>
 T predict_non_linear_point(std::vector<std::vector<T>> x, std::vector<T> y, std::vector<T> lambdas, std::vector<T> x_test) {
     int index = -1;
-    float epsilonDouble = 1e-3;
+    float epsilonDouble = 1e-2;
     std::vector<std::vector<float>> xHighP (x.size());
     for(int i = 0; i < x.size(); ++i){
         xHighP[i] = std::vector<float>(x[i].size());
@@ -142,11 +144,11 @@ T predict_non_linear_point(std::vector<std::vector<T>> x, std::vector<T> y, std:
     }
     }
     for(int i = 0; i < xHighP.size(); ++i){
-        b = b - lambdaHighP[i]*yHighP[i]*kernel(xHighP[index], xHighP[i], 0.001);
+        b = b - lambdaHighP[i]*yHighP[i]*kernel(xHighP[index], xHighP[i], 0.01);
     }
     double resultHighP = 0;
     for (int i = 0; i < xHighP.size(); ++i) {
-        resultHighP = resultHighP + lambdaHighP[i] * yHighP[i] * kernel(xHighP[i], xTestHighP, 0.001);
+        resultHighP = resultHighP + lambdaHighP[i] * yHighP[i] * kernel(xHighP[i], xTestHighP, 0.01);
     }
     resultHighP = resultHighP + b;
     T result = resultHighP;
@@ -183,7 +185,7 @@ float model_evaluate(std::vector<T> p, std::vector<T> y){
 }
 
 int main() {
-    std::string filename = "../datasets/mueta_exp4.csv";
+    std::string filename = "../matlab/mueta_exp4.csv";
     // should be a file containing mus and etas or lambdas, and the corresponding function should be properly chosen below
     std::string train_data_filename = "../datasets/breast_cancer_train_normalized.csv";
     std::string test_data_filename = "../datasets/breast_cancer_test_normalized.csv";
