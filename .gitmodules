@@ -1,3 +1,8 @@
 [submodule "cppposit-main"]
-	path = cppposit-main
-	url = https://github.com/federicorossifr/cppposit.git
+  path = cppposit-main
+  url = https://github.com/federicorossifr/cppposit.git
+
+[submodule "cppposit-main/build/_deps/catch2-src"]
+  path = cppposit-main/build/_deps/catch2-src
+  url = https://github.com/catchorg/Catch2.git
+
