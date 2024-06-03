@@ -14,7 +14,7 @@ The project is organized as follows:
 ## Requirements to run the project
 - Matlab & Matlab Optimization Toolbox
 - cpp_posit library
-- 
+  
 ## Requirements to run the project
 - Matlab & Matlab Optimization Toolbox
 - cpp_posit library
